@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pepper VA — Local AI Voice Assistant</title>
+  <meta name="description" content="Pepper VA is a local AI voice assistant for Windows. Speak naturally, control your desktop, and keep your data private." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Background glow -->
+  <div class="bg-glow"></div>
+
+  <!-- Main card container -->
+  <div class="main-card">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <div class="logo-mark">P</div>
+        <span class="logo-text">Pepper<span class="accent">VA</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#versions">Versions</a>
+        <a href="#requirements">Requirements</a>
+        <a href="#download">Download</a>
+      </div>
+
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Your Desktop.<br />
+          Your Voice.<br />
+          <span class="accent">Your AI.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Pepper VA is a fully local AI voice assistant for Windows. 
+          Speak naturally, control your desktop, keep memory, and stay private — 
+          no cloud required after setup.
+        </p>
+        <div class="hero-buttons">
+          <a href="#download" class="btn btn-primary">Download Free</a>
+          <a href="#versions" class="btn btn-secondary">Compare Versions</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+      <div class="section-header">
+        <h2>Built for real use</h2>
+        <p>Not just another chatbot. A proper desktop assistant.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🎙</div>
+          <h3>Voice First</h3>
+          <p>Speak naturally. Pepper listens, understands, and replies with voice. Custom wake word “Hey Pepper” included.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>Local AI</h3>
+          <p>Runs on your machine through Ollama. Your conversations stay on your PC — no forced cloud dependency.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🖥</div>
+          <h3>Desktop Control</h3>
+          <p>Open apps, control system functions, and perform useful tasks just by speaking.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💾</div>
+          <h3>Persistent Memory</h3>
+          <p>Remembers past conversations and preferences so it feels consistent over time.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎭</div>
+          <h3>Personality</h3>
+          <p>Designed to sound natural, friendly and conversational — not like a robotic system.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Private by Design</h3>
+          <p>Everything runs locally after the initial model download. You stay in control of your data.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Versions Comparison -->
+    <section id="versions" class="section">
+      <div class="section-header">
+        <h2>Choose your version</h2>
+        <p>Start free. Upgrade when you need more power.</p>
+      </div>
+
+      <div class="versions-grid">
+        <!-- Free Version -->
+        <div class="version-card">
+          <div class="version-badge">Free</div>
+          <h3>Pepper VA</h3>
+          <p class="version-desc">Everything you need to get started with a solid local voice assistant.</p>
+          
+          <ul class="feature-list">
+            <li>Local AI (Ollama)</li>
+            <li>Full voice interaction</li>
+            <li>Custom wake word</li>
+            <li>Persistent memory</li>
+            <li>Natural personality</li>
+            <li>Basic Desktop Control</li>
+            <li>Completely offline after setup</li>
+          </ul>
+
+          <a href="#download" class="btn btn-primary full-width">Download Free</a>
+        </div>
+
+        <!-- Pro Version -->
+        <div class="version-card featured">
+          <div class="version-badge accent">VA+</div>
+          <h3>Pepper VA+</h3>
+          <p class="version-desc">For users who want deeper control and a more personal assistant.</p>
+          
+          <ul class="feature-list">
+            <li>Everything in Pepper VA</li>
+            <li>Advanced long-term memory</li>
+            <li><strong>Home Control</strong> (exclusive)</li>
+            <li>Expanded desktop automation</li>
+            <li>Higher quality voice responses</li>
+            <li>Priority updates</li>
+            <li>Future plugin support</li>
+          </ul>
+
+          <a href="#download" class="btn btn-primary full-width">Get VA+</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Requirements -->
+    <section id="requirements" class="section">
+      <div class="section-header">
+        <h2>System Requirements</h2>
+        <p>Designed to run on everyday hardware.</p>
+      </div>
+
+      <div class="requirements-grid">
+        <div class="req-card">
+          <h3>Minimum</h3>
+          <ul>
+            <li>Windows 11</li>
+            <li>4 GB RAM</li>
+            <li>256 GB storage (SSD or HDD)</li>
+            <li>Integrated graphics (Intel Iris Xe / Xe Max or equivalent)</li>
+            <li>Ollama installed & running</li>
+          </ul>
+        </div>
+        <div class="req-card recommended">
+          <h3>Recommended</h3>
+          <ul>
+            <li>Windows 11</li>
+            <li>8 GB RAM (dual-channel preferred)</li>
+            <li>256 GB+ storage</li>
+            <li>Dedicated GPU (GTX 1650 or better)</li>
+            <li>Ollama installed & running</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ollama-note">
+        <p>
+          Pepper requires <strong>Ollama</strong> to run the local language model. 
+          Download it from the official site before installing Pepper.
+        </p>
+        <a href="https://ollama.com" target="_blank" rel="noopener" class="btn btn-secondary">Get Ollama →</a>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="section download-section">
+      <div class="section-header">
+        <h2>Download Pepper VA</h2>
+        <p>Free version available now. VA+ coming soon.</p>
+      </div>
+
+      <div class="download-cards">
+        <div class="download-card">
+          <h3>Pepper VA</h3>
+          <p class="version-tag">Free • Windows</p>
+          <p class="download-note">Latest build will be available via GitHub Releases.</p>
+          <a href="https://github.com/DrPhrma/Project-PepperVA/releases" class="btn btn-primary full-width" target="_blank">
+            Download from GitHub
+          </a>
+        </div>
+
+        <div class="download-card muted">
+          <h3>Pepper VA+</h3>
+          <p class="version-tag">Paid • Coming Soon</p>
+          <p class="download-note">Home Control + advanced features. Join the waitlist.</p>
+          <button class="btn btn-secondary full-width" disabled>Coming Soon</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-mark small">P</div>
+          <span>Pepper VA</span>
+        </div>
+        <p class="footer-text">
+          A personal AI engineering project. Local-first. Voice-first. Privacy-focused.
+        </p>
+        <div class="footer-links">
+          <a href="https://github.com/DrPhrma/Project-PepperVA" target="_blank">GitHub</a>
+          <a href="#features">Features</a>
+          <a href="#download">Download</a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Project PepperVA. Built with ❤️</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
